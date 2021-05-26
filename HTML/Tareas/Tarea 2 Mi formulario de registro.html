@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Formulario</title>
+</head>
+
+<body>
+    <h1>Mi Primer Formulario</h1>
+    <br>
+    <hr>
+    <div>
+        <form action="/">
+            <h5>Ingrese sus datos personales</h5>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" name="Nombre">
+            <br>
+            <br>
+            <label for="Apellido">Apellido:</label>
+            <input type="text" id="Apellido" name="Apellido">
+            <br>
+            <br>
+            <label for="Email">Correo:</label>
+            <input type="email" id="Email" name="Email">
+            <br>
+            <br>
+            <label for="Fecha">Seleccione Fecha</label>
+            <input type="datetime-local" id="Fecha" name="Fecha">
+            <br>
+            <br>
+            <label for="Masculino">Masculino</label>
+            <input type="radio" id="Masculino" name="Genero">
+            <label for="Femenino">Femenino</label>
+            <input type="radio" id="Femenino" name="Genero">
+            <label for="Prefiero No Decir">Prefiero No Decir</label>
+            <input type="radio" id="Prefiero No Decir" name="Genero">
+            <br>
+            <br>
+            <h5>Seleccione su Ciudad</h5>
+            <select name="Ciudad" id="Ciudad">
+            <option value="0">Seleccione</option>
+            <option value="1">Santiago</option>
+            <option value="2">Valparaiso</option>
+            <option value="3">Temuco</option>
+            </select>
+            <br>
+            <br>
+            <label for="Detalle">Ingrese sus Comentarios</label>
+            <br>
+            <textarea name="Detalle" id="Detalle" cols="30" rows="10"></textarea>
+            <br>
+            <hr>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+
+</html>
