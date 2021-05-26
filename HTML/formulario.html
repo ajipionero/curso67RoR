@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Clase 67</title>
+</head>
+
+<body>
+    <div>
+        <!--formularios -->
+        <!-- action es la ruta donde enviaremos la informacion-->
+        <!--method : establece la forma de pasar los parametros (GET, POST)-->
+        <form action="/">
+            <!--estos son los input comunes donde el usuario ingresa texto-->
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <label for="apellido">Apellido:</label>
+            <!--el orden del id y name da lo mismo-->
+            <input type="text" id="apellido" name="apellido">
+            <br>
+            <input type="email" id="email" id="email">
+            <label for="email">Email:</label>
+            <br>
+            <!--si queremos ver la password inspeccionamos la pagina y cambiamos a texto -->
+            <label for="">Password:</label>
+            <input type="password" id="pass" name="pass">
+            <br>
+            <hr>
+            <!--input de tipo fecha-->
+            <label for="">Fecha1:</label>
+            <input type="date" id="date" name="date">
+            <br>
+            <label for="">Fecha2 con datetime local:</label>
+            <input type="datetime-local" id="date2" name="date2">
+            <br>
+            <label for="">Fecha3 con datetime:</label>
+            <input type="datetime" id="date3" name="date3">
+            <br>
+            <hr>
+            <!--input de seleccion u opcion-->
+            <!--radio-->
+            <!--en el radio button el name debe ser igual en todas las opciones-->
+            <!--se añade el valor value ya que el name es el mismo, y se llevara el valor seleccionado por el usuario-->
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="masculino" value="2">
+            <label for="femenino">Femenino</label>
+            <input type="radio" name="genero" id="femenino" value="1">
+            <label for="nodecir">Prefiero No Decir</label>
+            <input type="radio" name="genero" id="nodecir" value="0">
+            <br>
+            <label for="casado">casado</label>
+            <input type="radio" name="estadocivil" id="casado" value="2">
+            <label for="soltero">soltero</label>
+            <input type="radio" name="estadocivil" id="soltero" value="1">
+            <label for="separado">separado</label>
+            <input type="radio" name="estadocivil" id="separado" value="0">
+            <br>
+            <hr>
+            <!--checkbox-->
+            <label for="Verano">Verano</label>
+            <input type="checkbox" name="estaciones1" id="Verano" value="0"><br>
+            <label for="Invierno">Invierno</label>
+            <input type="checkbox" name="estaciones2" id="Invierno" value="1"><br>
+            <label for="Primavera">Primavera</label>
+            <input type="checkbox" name="estaciones3" id="Primavera" value="2"><br>
+            <label for="Otoño">Otoño</label>
+            <input type="checkbox" name="estaciones4" id="Otoño" value="3"><br>
+            <br>
+            <hr>
+            <!--Selector o select -->
+            <select name="Lenguajes" id="Lenguajes">
+                <option value="0">Seleccione un lenguaje</option>
+                <option value="1">HTML</option>
+                <option value="2">CSS</option>
+                <option value="3">JAVASCRIPT</option>
+                <option value="4">RoR</option>
+            </select>
+            <br>
+            <hr>
+            <!--text area...pra que el usuario agregue informacion-->
+            <label for="detalle">Ingreses sus comentarios</label><br>
+            <textarea name="detalle" id="detalle" cols="30" rows="10"></textarea>
+            <br>
+            <hr>
+            <hr>
+            <!--botones-->
+            <!--el type="button" no sirve para enviar formularios-->
+            <input type="button" value="enviar...">
+            <input type="submit" value="Ingresar">
+
+
+
+
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>

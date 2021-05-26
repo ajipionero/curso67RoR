@@ -1,0 +1,89 @@
+bootstrap
+
+dropdown
+
+COMPOSICION DE UN EQUIPO FUNDADOR
+B2B SOFTWARE PRODUCTOS
+DEVLABS
+
+3 PERFILES EN EL EQUIPO
+
+BACJEND DEVELOPER
+BIZ DEV
+UX DESIGNER
+
+METODO MOSCOW (MSCW)
+PRIORITIZATION CATEGORIES
+
+https://www.productplan.com/glossary/moscow-prioritization/
+
+MUST
+COULD
+SHOULD
+WONT
+
+Discriminar cuales son las ...
+
+Must: Aqui harian las actividades que hay que hacer si o si.
+Should: Es donde iria lo importante pero no es obligatorio
+
+Could : lo deseable para que sea perfecto
+
+wont : lo que no vamos a hacer
+
+
+
+https://slidemodel.com/templates/moscow-method-powerpoint-template/
+
+https://online.visual-paradigm.com/app/diagrams/#diagram:proj=0&type=MoSCoWMethod&gallery=/repository/94ea42d6-5946-4be9-b16d-338f5f5640f7.xml&name=MoSCoW%20Method%20Template
+
+contacto.inforcap@hotmail.com
+
+-------------------------------------------------------
+
+CRUD: CREAR , LEER, ACTUALZIAR, ELIMINAR
+
+META ES CREAR UNA SISTEMA WEB PARA UN PMV.
+
+visual studio code
+git
+brave navegador
+
+agregar extensiones:
+
+1 - open in browser : lo abre en el navegador
+2 - js css html formatter : ordena el codigo
+3 - html snippets: permite completar las etiquetas
+4 - indent-rainbow
+
+head= la configuracion de la pagina web
+charset= CARACTERES LATINO EJ. Ñ
+meta content = compatibilidad con el navegador
+meta viewport content = responsibidad de la pagina
+title = informacion de la pagina principal
+
+https://www.w3schools.com/
+ el div es apra dividir como si fueran paredesd e una casa
+
+del h1 al h6 es para titulos.
+
+<!-- --> ESTOS SON LOS COMENTARIOS EN LA PAGINA WEB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
