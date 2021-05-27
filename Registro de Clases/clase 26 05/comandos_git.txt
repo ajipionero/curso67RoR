@@ -3,23 +3,23 @@ cd nombre_carpeta  -> acceder a la carpeta
 ls -la -> listar las carpetas y archivos internos
 clear -> limpiar pantalla en Windows, Linux  y Mac (cls ->DOS)
 cd .. -> regresa a la carpeta superior
-mkdir -> crear carpeta
+mkdir Nombre_carpeta mkdir -> crear carpeta
 
 
 GIT
 
-git config --global user.name "nombre apellido"
-git config --global user.email "sucorreo@gmail.com"
+git config --global user.name "Andres Jimenez"
+git config --global user.email "andresjimenez.rpo@gmail.com"
 
 
-git init
-git add .
+git init --> una vez por repositorio
+git add . --> agregue todos los archivos (versionando)
 git commit -m "first commit"
-git remote add origin https://github.com/sunick/curso67RoR.git
+git remote add origin git remote add origin https://github.com/ajipionero/curso67RoR.gitgit remote add origin https://github.com/ajipionero/curso67RoR.git
 git push -u origin master
 
 #ESTO REALIZARLO DESPUES SIEMPRE 
-git add .
+
 git commit -m "first commit"
 git push -u origin master
 
@@ -28,3 +28,7 @@ git clone https://github.com/sunick/curso67RoR.git
 
 
 git pull -> bajar cambios desde la web
+
+git config core.autocrlf false --> cuando aparece este mensaje -->warning: LF will be replaced by CRLF in Registro de Clases/clase 26 05/comandos_git.txt.
+The file will have its original line endings in your working directory
+

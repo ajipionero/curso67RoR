@@ -1,0 +1,26 @@
+github account
+
+ajipionero
+Token.1984
+
+curso67/ror
+
+existen 3 formas de dar estilo
+
+se puede dar estilo a cada parrafo o a todo en conjunto
+
+el !important da prioriza a un color en un elemento
+
+para signar un tamaño unico a la image se debe asignar un id
+
+elementos
+
+margin: margina los elementos
+
+border - una barrerita para establecer una separacion.
+
+padding
+
+se debe considerar el border como parte del tamaño del elemento.
+
+
