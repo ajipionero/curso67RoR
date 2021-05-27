@@ -13,9 +13,7 @@
     <div>
         <h1 id="arriba">EL BLOG DEL AJI</h1>
         <br>
-        <br>
-        <br>
-        <img src="fotos/aji-verde-chileno-paquete.jpg" alt="html" width="auto" height="200px">
+        <img src="fotos/aji-verde-chileno-paquete.jpg" alt="html" width="200px" height="auto">
         <h5>Descripción del aji </h5>
         <p>El chile, ají o pimiento es el fruto de las plantas del género Capsicum,<br> que incluye alrededor de 20-27 especies, de las cuales 5 son domesticadas,<br> además de las variedades de cada una. La especie más cultivada es Capsicum annuum,<br>            conocida generalmente como chile, pimiento o ají morrón.
         </p>
@@ -43,8 +41,36 @@
             <li>Capsicum baccatum</li>
             <li>Capsicum chacoense</li>
         </ul>
-
         <br>
+        <br>
+        <hr> Completa esta encuesta
+        <form action="/">
+            <h5>Que plato te gusta más?</h5>
+            <label for="ajicriollo">aji criollo</label>
+            <input type="checkbox" name="platos" id="ajicriollo" value="0">
+            <label for="pebre">Pebre</label>
+            <input type="checkbox" name="platos" id="pebre" value="1">
+            <br>
+            <h5>Cuales son tus favoritos?</h5>
+            <label for="cachodecabra">Cacho de Cabra</label>
+            <input type="radio" name="tipo" id="cachodecabra" value="2">
+            <label for="jalapeño">Jalapeño</label>
+            <input type="radio" name="tipo" id="jalapeño" value="1">
+            <br>
+            <br>
+            <hr>
+            <select name="califica" id="califica">
+            <option value="0">Te gusto el articulo</option>
+            <option value="1">Si</option>
+            <option value="2">No</option>
+            <option value="3">Maravilloso</option>
+            <option value="4">Mejoralo</option>
+            </select>
+            <br>
+            <br>
+            <hr>
+            <input type="submit" value="Enviar">
+        </form>
         <br>
         <a href="#arriba">vuelve al inicio</a>
     </div>

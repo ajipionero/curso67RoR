@@ -23,4 +23,7 @@ padding
 
 se debe considerar el border como parte del tamaño del elemento.
 
+github del profe
+
+https://github.com/learsixela/curso67RoR
 
