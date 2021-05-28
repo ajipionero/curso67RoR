@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Position Practice</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /*CSS reset settings here*/
+        
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        #wrapper {
+            width: 1024px;
+            background-color: silver;
+            margin: 0px auto;
+            padding: 20px;
+        }
+        
+        #header {
+            min-height: 150px;
+            margin-bottom: 10px;
+            padding: 2px;
+            background-color: green;
+        }
+        
+        #navigation {
+            min-height: 300px;
+            width: 200px;
+            background-color: blue;
+            display: inline-block;
+        }
+        
+        #main_content {
+            min-height: 400px;
+            width: 809px;
+            margin-left: 10px;
+            background-color: red;
+            display: inline-block;
+            vertical-align: top;
+        }
+        
+        .subcontents {
+            min-height: 200px;
+            width: 210px;
+            margin: 10px;
+            padding: 18px;
+            background-color: yellow;
+            display: inline-block;
+        }
+        
+        #advertisement {
+            min-height: 120px;
+            width: 786px;
+            margin-left: 11px;
+            background-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header"></div>
+        <div id="navigation"></div>
+        <div id="main_content">
+            <div class="subcontents"></div>
+            <div class="subcontents"></div>
+            <div class="subcontents"></div>
+            <div id="advertisement"></div>
+        </div>
+    </div>
+    <!-- end of wrapper -->
+</body>
+
+</html>
