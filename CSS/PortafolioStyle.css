@@ -1,0 +1,130 @@
+* {
+    outline: 1px dotted blue;
+}
+
+#Base {
+    width: 970px;
+    height: 970px;
+    background-color: violet;
+}
+
+.Titulo1 {
+    color: black;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.Titulo2 {
+    color: black;
+    margin-left: 500px;
+    display: inline-block;
+}
+
+#Base2 {
+    width: 970px;
+    height: 970px;
+    background: linear-gradient(to right, #1D0D11, #6F5964, #1D0D11);
+    padding: 20px;
+}
+
+#fotodemi {
+    width: 380px;
+    height: 250px;
+    border: 5px;
+    border-color: gray;
+    vertical-align: top;
+    display: inline-block;
+    padding: 25px;
+}
+
+#About0 {
+    width: 500px;
+    height: 260px;
+    margin-left: 20px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#About1 {
+    width: 500px;
+    height: 40px;
+    background: linear-gradient( 180deg, darkgray, gray, darkgray);
+    vertical-align: top;
+    padding: 1px;
+}
+
+h3.Titleabout {
+    color: white;
+    margin: 8px;
+}
+
+#About2 {
+    width: 500px;
+    height: 260px;
+    background-color: white;
+    vertical-align: top;
+}
+
+p.ParrafoAbout {
+    margin: 0px;
+}
+
+.LAMODE0 {
+    width: 290px;
+    height: 560px;
+    vertical-align: top;
+    margin-top: 15px;
+    margin-left: 15px;
+    display: inline-block;
+    Background: linear-gradient(to right, white, #6F5964);
+    padding: 5px;
+}
+
+.lamode1 {
+    width: 290px;
+    height: 25px;
+    background: linear-gradient( 180deg, darkgray, gray, darkgray);
+    padding: 1px;
+}
+
+h4.Titlelamode {
+    margin: 0px;
+    color: white;
+}
+
+#lamode2 {
+    width: 290px;
+    height: 25px;
+    background: linear-gradient( 180deg, darkgray, gray, darkgray);
+    padding: 1px;
+}
+
+h4.TitleTecno {
+    margin: 0px;
+    color: white
+}
+
+#logos {
+    width: 290px;
+    height: 100px;
+    padding: 1px;
+}
+
+.logos {
+    width: 50px;
+    height: 39px;
+    margin-left: 3px;
+}
+
+#boton {
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 90px;
+    background-color: #407d61;
+    box-shadow: 2px 2px 5px black;
+}
+
+.linkboton {
+    margin-left: 33px;
+}
