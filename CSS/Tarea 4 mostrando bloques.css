@@ -1,0 +1,56 @@
+* {
+    outline: 1px dotted blue;
+}
+
+#basebloques {
+    width: 800px;
+    height: 800px;
+    background-color: burlywood;
+    padding: 20px;
+}
+
+#header0 {
+    width: 750px;
+    min-height: 0%;
+    padding: 15px;
+}
+
+.header1 {
+    display: inline-block;
+    margin-left: 130px;
+}
+
+.header2 {
+    display: inline-block;
+    margin: 0px;
+}
+
+.header3 {
+    display: inline-block;
+    background-color: white;
+}
+
+.firstimage {
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    border: 1px turquoise;
+}
+
+.secondimage {
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+}
+
+.thirdimage {
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+}
+
+.fourthimage {
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+}
