@@ -9,28 +9,24 @@
     height: 830px;
     background-color: burlywood;
     padding: 20px;
+    text-align: center;
 }
 
 
 /*Title*/
 
-.Titleimage1 {
+.Titleimage {
     width: 150px;
     height: 100px;
     background-color: white;
-    margin-left: 110px;
+    vertical-align: middle;
 }
 
 .Title2 {
     display: inline-block;
     font-size: 43px;
     line-height: 43px;
-}
-
-.Titleimage2 {
-    width: 150px;
-    height: 100px;
-    background-color: white;
+    vertical-align: middle;
 }
 
 
@@ -40,7 +36,6 @@
     width: 150px;
     height: 150px;
     border: 2px solid black;
-    display: inline-block;
     background-color: lightblue;
     padding: 10px;
 }
@@ -49,7 +44,6 @@
     width: 150px;
     height: 150px;
     border: 2px solid black;
-    display: inline-block;
     background-color: pink;
     padding: 10px;
 }
