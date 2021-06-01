@@ -1,0 +1,96 @@
+* {
+    outline: 1px dotted red;
+}
+
+.container {
+    width: 970px;
+    height: 1270px;
+    background-color: #2b5b84;
+    padding: 10px;
+}
+
+.header {
+    width: 970px;
+    height: 100px;
+}
+
+.logopython {
+    width: 277px;
+    height: 90px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.leftheader {
+    width: 220px;
+    height: 55px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 376px;
+    background-color: #515151;
+    border-radius: 13px;
+}
+
+.TextSize {
+    margin: 0px;
+}
+
+.search {
+    margin: 0px;
+}
+
+.navbar {
+    width: 800px;
+    height: 20px;
+    padding: 20px;
+    background-color: #4f90c6;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px;
+    margin-left: 70px;
+}
+
+.menu {
+    font: Arial;
+    font-size: 16px;
+    color: white;
+    margin: 0px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.content {
+    width: 970px;
+    height: 400px;
+}
+
+.contentleft {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+
+.links {
+    font: Arial;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.contentright {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+
+.contenttext {}
+
+.main {
+    width: 970px;
+    height: 400px;
+}
+
+.footer {
+    width: 970px;
+    height: 200px;
+}
