@@ -1,0 +1,172 @@
+* {
+    outline: 1px dotted red;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 970px;
+    height: 900px;
+    background: linear-gradient( 180deg, #2b5b84 90%, #5d55da);
+    padding: 15px;
+}
+
+
+/*header*/
+
+.header {
+    width: 970px;
+    height: 120px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    display: inline-block;
+}
+
+.headerleft {
+    width: 220px;
+    height: 120px;
+    display: inline-block;
+    margin-left: 400px;
+    vertical-align: top;
+}
+
+.ptextsize {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.buscador {
+    width: 220px;
+    height: 70px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    background-color: #1e2933;
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 10px;
+}
+
+.inputsearch {
+    margin-top: 21px;
+    margin-left: 7px;
+}
+
+.inputsubmit {
+    width: 34px;
+    height: auto;
+    background: #2b5b84;
+    box-shadow: 1px 1px 1px 1px rgb(176, 176, 176);
+    border-radius: 5px;
+    color: white;
+}
+
+
+/*Barra de Menu Principal*/
+
+ul {
+    /*propiedades de los ul*/
+    list-style-type: none;
+}
+
+.navbar {
+    width: 800px;
+    height: 40px;
+    background-color: #6195c4;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.menuoption {
+    display: inline-block;
+    color: white;
+    width: 128px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+/*barra de menu lateral e Intro*/
+
+.sidenavbar {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sideoptions {
+    color: white;
+}
+
+.Intro {
+    width: 350px;
+    height: auto;
+    display: inline-block;
+}
+
+.pintro1 {
+    color: white;
+}
+
+.pintro2 {
+    color: yellow;
+    font-style: italic;
+}
+
+
+/*getting starter and applications*/
+
+.content {
+    width: 970px;
+    height: 270px;
+    background-color: white;
+    padding: 10px
+}
+
+.getting {
+    width: 300px;
+    height: 270px;
+    border-top: 3px solid #2b5b84;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.applications {
+    width: 300px;
+    height: 270px;
+    border-top: 3px solid #2b5b84;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+
+/*footer*/
+
+.footer {
+    width: 970px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+.footercontact {
+    width: 250px;
+    display: inline-block;
+    color: #2b5b84;
+}
+
+.afooter {
+    color: #5d9ed5;
+    text-decoration: none;
+}
+
+.pfooter {
+    color: #5d9ed5;
+}
