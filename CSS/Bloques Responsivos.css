@@ -8,14 +8,12 @@
 .wrapper {
     width: 1024px;
     background-color: silver;
-    margin: 0px auto;
-    padding: 20px;
+    padding: 10px;
 }
 
 .header {
     min-height: 150px;
     margin-bottom: 10px;
-    padding: 2px;
     background-color: green;
 }
 
@@ -47,7 +45,6 @@
 .advertisement {
     min-height: 120px;
     width: 786px;
-    margin-left: 11px;
     background-color: purple;
 }
 
@@ -65,7 +62,7 @@
         width: 45%;
     }
     .advertisement {
-        width: 90%;
+        width: 94%;
     }
 }
 
