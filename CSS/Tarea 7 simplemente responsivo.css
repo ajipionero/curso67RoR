@@ -1,0 +1,45 @@
+                * {
+                    outline: 1px dotted blue;
+                    margin: 0px;
+                    padding: 0px;
+                }
+                
+                .principal {
+                    padding: 15px;
+                }
+                
+                .Title {
+                    background-color: gray;
+                }
+                
+                .main {
+                    background-color: rgb(202, 199, 199);
+                }
+                
+                .footer {
+                    background-color: rgb(245, 226, 165);
+                }
+                
+                @media only screen and (max-width: 480px) {
+                    /* we will set these stylings only if the device is a screen with a width of 480px or less */
+                    #Tablet,
+                    #Desktop {
+                        display: none;
+                    }
+                }
+                
+                @media only screen and (min-width:481px) and (max-width: 1023px) {
+                    /* we will set these stylings only if the device is a screen with a width of 480px or less */
+                    #Desktop,
+                    #Phone {
+                        display: none;
+                    }
+                }
+                
+                @media only screen and (min-width: 1024px) {
+                    /* we will set these stylings only if the device is a screen with a width of 480px or less */
+                    #Tablet,
+                    #Phone {
+                        display: none;
+                    }
+                }
