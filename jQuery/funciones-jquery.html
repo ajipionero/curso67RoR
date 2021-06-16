@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>funciones-jquery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <style>
+        .primerdiv {
+            width: auto;
+            height: 200px;
+            background-color: aquamarine;
+        }
+        
+        .segundodiv {
+            width: auto;
+            height: 200px;
+            background-color: chocolate;
+        }
+        
+        .tercerdiv {
+            width: auto;
+            height: 200px;
+            background-color: yellowgreen;
+        }
+        
+        .change {
+            width: auto;
+            height: 210px;
+            background-color: cadetblue;
+        }
+    </style>
+    <script>
+        //estructura base jquery --> $('').accion(function(){});
+        $(document).ready(function() {
+            // esconde h1 con un clic en button 1hide H1
+            $('.input1').click(function() {
+                $('h1.h1').hide();
+                console.log("hide h1");
+            });
+        });
+        //cambia la clase al hacer doble clic en cualquier lugar del primerdiv
+        $(document).ready(function() {
+            $('h1').dblclick(function() {
+                $('.primerdiv').addClass("primerdiv change");
+                console.log("cambiaste el color?");
+            });
+        });
+        //ejecuta toggle en el parrafo
+        $(document).ready(function() {
+            $('.input2').click(function() {
+                $('.parrafo').toggle("[default:400]");
+                console.log("ejecuto el toggle");
+            });
+        });
+        //ejecuta el slideup and down
+        $(document).ready(function() {
+            $('.input3').click(function() {
+                $('.tercerdivhijo').slideDown("[duration(default:400)]");
+                console.log("te ejecuto el slide?");
+            });
+
+        });
+    </script>
+
+</head>
+
+<body>
+    <div>
+        <div class="primerdiv">
+            <h1 class="h1">Cliquea y ejectuca "CLICK and HIDE"</h1>
+            <input class="input1" type="button" value="button1">
+        </div>
+        <hr>
+        <div class="segundodiv">
+            <h1>Cliquea aqui y ejecuta TOGGLE</h1>
+            <p class="parrafo">Este es un parrafo</p>
+            <input class="input2" type="button" value="button2">
+        </div>
+        <hr>
+        <div class="tercerdiv">
+            <div class="tercerdivhijo">
+                <h1>Clicquea aqui y ejecuta el slideup and slidedown</h1>
+                <p>practica esto para tu pagina</p>
+            </div>
+            <input class="input3" type="button" value="button3">
+
+
+        </div>
+        <hr>
+        <div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
