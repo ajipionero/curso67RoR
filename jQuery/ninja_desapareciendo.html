@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja_Desapareciendo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <style>
+        /*img {
+            width: 180px;
+            height: 230px;
+        }*/
+    </style>
+    <script>
+        //estructura base jquery --> $('').accion(function(){});
+        $(document).ready(function() {
+            /*añade imagen y sus caracteristicas*/
+            for (let i = 0; i < 8; i++) {
+                $('.container').append('<img src=tuyyo.JPG>');
+                console.log("añadio la imagen?")
+                $('img').attr('width', '200px');
+                console.log("cambio de tamaño ?");
+                $('img').attr('border', '5px');
+                console.log("agrego el borde ?");
+                $('img').attr('style', 'margin:10px');
+                console.log("agrego el margen ?");
+            };
+            /*boton de restauracion*/
+            $('.container').append("<br><button id=restaurar>Restaurar</button>")
+
+            /*desaparece y aparece imagenes*/
+            $('img').click(function() {
+                $(this).fadeOut(2000);
+                console.log("desaparecio la imagen ?");
+            });
+
+            $('button').click(function() {
+                $('img').fadeIn(2000);
+                console.log("se restauraron las imagenes ?");
+            });
+
+
+
+
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>JQuery Tarea 1</h2>
+    </div>
+
+</body>
+
+</html>
