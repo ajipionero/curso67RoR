@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#buscar').click(function() {
+                var ciudad = $('#ciudad').val(); //obtener el valor del elemento (input) 
+                var url = 'https://api.openweathermap.org/data/2.5/weather?q=' + ciudad + '&appid=99d747799eddbc71ddb7d180ceae9685';
+
+                $.get(url, function(objeto) {
+                    console.dir(objeto);
+                    var temperatura = objeto.main.temp - 273.15;
+                    $('#result').html('<p>' + objeto.name + ' </p><br>');
+                    $('#result').append('<p>longitud: ' + objeto.coord.lon + ' latitud: ' + objeto.coord.lat + ' </p>');
+                    $('#result').append('<p> temperatura: ' + temperatura + ' </p>');
+                    $('#result').append(objeto.clouds);
+                    //('<p>' + objeto.main.temp + ' </p>');
+
+                }, "json");
+
+            });
+
+        });
+    </script>
+    <style>
+        #result {
+            width: 400px;
+            height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" name="ciudad" id="ciudad">
+        <button id="buscar">Buscar</button>
+    </div>
+    <div id="result">
+
+
+    </div>
+</body>
+
+</html>
