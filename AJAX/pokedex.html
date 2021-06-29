@@ -8,34 +8,87 @@
     <title>pokedex::</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <style>
+        #container {
+            width: auto;
+            position: relative;
+        }
+        
         #pokemones {
-            width: 800px;
-            background-color: whitesmoke;
-            display: inline-block;
+            width: auto;
+            height: 150px;
+            padding: 20px;
+            border: blue 5px;
+            background-image: url("sky.gif");
+            background-size: cover;
+            overflow: scroll;
         }
         
-        #pokedex {
-            width: 200px;
-            height: 300px;
-            background-color: aquamarine;
-            display: inline-block;
-            border: 1px solid tomato;
-            vertical-align: top;
+        #scenary {
+            width: auto;
+            height: auto;
+            padding: 10px;
         }
         
-        h3 {
-            text-align: center;
+        .escenario {
+            width: 1700px;
+            height: 700px;
         }
         
-        p {
-            text-align: center;
+        .equipo {
+            margin-top: 103px;
+            margin-left: -1130px;
+            position: absolute;
+        }
+        
+        #data {
+            width: 189px;
+            height: 90px;
+            background-color: #00ff0e;
+            position: absolute;
+            padding: 1px;
+            margin-top: -464px;
+            margin-left: 948px;
+        }
+        
+        #screen {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            margin-left: 670px;
+            margin-top: -456px;
+            padding: 1px;
+        }
+        
+        .nombre {
+            margin-top: 1px;
+            position: absolute;
+            margin-left: 55px;
+        }
+        
+        .altura {
+            position: absolute;
+            margin-top: 34px;
+            margin-left: 103px;
+        }
+        
+        .peso {
+            position: absolute;
+            margin-top: 34px;
+            margin-left: 10px;
+        }
+        
+        .tipo {
+            position: absolute;
+            margin-top: 57px;
         }
     </style>
     <script>
         function pokemon() {
             for (let i = 1; i <= 898; i++) {
+
                 $('#pokemones').append('<img id="' + i + '" src="http://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/' + i + '.png">');
             }
+
         }
 
         $(document).ready(function() {
@@ -50,53 +103,37 @@
 
                     console.dir(respuesta);
 
-                    //buscador automatico
-                    //for (var o = 0; o <= respuesta.length; o++) {
-                    //    console.log(respuesta.length[o]);
-                    //}
-
                     //llamar hacia pokedex(manual)
-                    $('#pokedex').html('<h3>' + respuesta.name + '</h3>');
+                    $('#data').html('<h4 class="nombre">' + respuesta.name + '</h4>');
                     //$('#pokedex').append('<img src="http://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/' + respuesta.id + '.png">');
-                    $('#pokedex').append('<img src="' + respuesta.sprites.front_default + '">');
-                    $('#pokedex').append('<p> el tipo  es:' + respuesta.types[0].type.name + '</p>');
-                    $('#pokedex').append('<p> la altura  es:' + respuesta.height + '</p>');
-                    $('#pokedex').append('<p>El peso es:' + respuesta.weight + '</p>');
-
-                    //buscador
-
-
-
-
-
-                    //console.log(respuesta.types[0].type.name);
-
-
-                    //var a = "";
-                    //a += id.name
-
-
-                    //$('pokedex').append('<h6>El id es:' + a + '</h6>');
-
+                    $('#screen').html('<img class="screener" src="' + respuesta.sprites.front_default + '">');
+                    $('#data').append('<p class="tipo">Tipo :' + respuesta.types[0].type.name + '</p>');
+                    $('#data').append('<p class="altura">Altura :' + respuesta.height + '</p>');
+                    $('#data').append('<p class="peso">:Peso :' + respuesta.weight + '</p>');
                 }, "json");
 
             });
-
-
-
-
         });
     </script>
 </head>
 
 <body>
-    <div>
+    <div id="container">
+        <img src="pokemon.jpg" alt="" width="170px">
         <div id="pokemones">
+        </div>
+        <div id="scenary">
 
+            <img class="escenario" src="escenario.jpg" alt="escenario">
+            <img class="equipo" src="pokedex.gif" alt="equipo">
+            <div id="data"></div>
+
+            <div id="screen">
+            </div>
         </div>
-        <div id="pokedex">
-            <img src="" alt="">
-        </div>
+
+    </div>
+
     </div>
 
 
